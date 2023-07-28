@@ -92,7 +92,8 @@
   background: var(--main-color);
   border: 0.2rem solid var(--main-color);
   border-radius: 0.8rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+  font-weight: 500;
   letter-spacing: 0.1rem;
   color: var(--bg-color);
   z-index: 1;
