@@ -4,6 +4,7 @@
 @import url(./_about.css);
 @import url(./_skills.css);
 @import url(./_contact.css);
+@import url(./_products.css);
 @import url(./_education.css);
 @import url(./_footer.css);
 
@@ -242,6 +243,7 @@ section:nth-child(odd) .animate.scroll,
 .education.show-animate .education-box .animate.scroll,
 .skills.show-animate .animate.scroll,
 .contact.show-animate .animate.scroll,
+.products.show-animate .animate.scroll,
 .footer.show-animate .animate.scroll {
   width: 0;
   transition-delay: calc(0.3s * var(--i));
