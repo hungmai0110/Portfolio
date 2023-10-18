@@ -12,7 +12,18 @@
   position: relative;
 }
 
-.footer-text p {
+.footer-text .email {
+  display: flex;
+  align-items: center;
+}
+
+.footer-text .email span i {
+  font-size: 20px;
+  margin-right: 8px;
+  margin-top: 3px;
+}
+
+.footer-text .email p {
   font-size: 1.6rem;
 }
 
@@ -53,4 +64,10 @@
 
 .footer-iconTop a:hover i {
   color: var(--main-color);
+}
+
+@media (max-width: 428px) {
+  .footer-text .email span i {
+    margin-top: 18px;
+  }
 }
