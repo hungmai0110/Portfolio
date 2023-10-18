@@ -51,3 +51,14 @@ window.onscroll = () => {
     this.innerHeight + this.scrollY >= document.scrollingElement.scrollHeight
   );
 };
+
+// show readmore in section about
+const btnReadMore = document.querySelector(".about .btn");
+let moreInfo = document.querySelector(".about .more-info");
+
+btnReadMore.addEventListener("click", () => {
+  moreInfo.classList.toggle("show");
+  btnReadMore.innerText === "Read More"
+    ? (btnReadMore.innerText = "Show Less")
+    : (btnReadMore.innerText = "Read More");
+});
