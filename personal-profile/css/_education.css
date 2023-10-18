@@ -51,6 +51,7 @@
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;
+  height: 210px;
 }
 
 .education-content .content::before {
@@ -86,4 +87,27 @@
 .education-content .content p {
   font-size: 1.6rem;
   padding-top: 0.5rem;
+}
+
+.education-content .content ul {
+  margin-top: 4px;
+  padding-left: 15px;
+}
+
+.education-content .content ul li,
+.education-content .content .description {
+  font-size: 14px;
+}
+
+@media (max-width: 834px) {
+  .education-content .content {
+    height: auto;
+  }
+}
+
+@media (max-width: 428px) {
+  .education-content .content ul li,
+  .education-content .content .description {
+    font-size: 12px;
+  }
 }
