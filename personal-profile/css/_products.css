@@ -1,5 +1,4 @@
 .products {
-  min-height: auto;
   padding-bottom: 7rem;
 }
 
@@ -29,11 +28,12 @@
 
 .products .list-products .product-card {
   height: 100%;
-  box-shadow: 0 2px 3px 1px var(--main-color);
 }
 
 .product-card .product-content {
-  margin: 8px 0;
+  padding: 8px 0;
+  border: 0.2rem solid var(--main-color);
+  border-radius: 0.6rem;
 }
 
 .product-card .product-content p {
